@@ -1,0 +1,70 @@
+----------------------------------------------------------------------
+                     POSTS EM LISTA SUSPENSA
+----------------------------------------------------------------------
+
+Criado por: Giosepe Luiz
+E-mail: giosepe_luiz3@hotmail.com
+Local: Paraná (Brasil)
+Data de Criação: 01/04/2010
+
+Resumo: Este plugin para Wordpress faz com que os posts de uma determinada
+categoria fiquem alinhados em ordem, numa lista suspensa, também conhecida
+como "Drop Down Box". E que a mesma pode ou não ter um botão.
+
+
+----------------------------------------------------------------------
+                          INSTALANDO
+----------------------------------------------------------------------
+
+1) Baixe o plugin ou peça pelo e-mail;
+
+2) Extraia o zip na pasta de plugins de seu Wordpress;
+
+3) No painel de controle, ative o seu plugin;
+
+Prontinho.
+
+
+----------------------------------------------------------------------
+                           COMO USAR
+----------------------------------------------------------------------
+
+:::::::::::::::::::::::::::: POST OU PÁGINA ::::::::::::::::::::::::::::
+
+Para inserir a lista suspensa numa página ou post qualquer, insira um
+dos seguintes códigos (em modo HTML):
+||
+||
+||    <!-- listar # -->
+||	
+|| --> Insere uma lista de uma determinada categoria, onde o '#' é a ID dessa categoria.
+||
+||    <!-- listar tudo -->
+||	
+||--> Lista todos os posts existentes.
+||
+||
+:::::::::::::::::::::::::::::::: TEMPLATE ::::::::::::::::::::::::::::::
+
+Para inserir a lista suspensa a partir do template, insira um dos seguintes
+códigos na página PHP:
+||
+||
+||	 <?php echo lista(#); ?>
+||	
+|| --> Insere uma lista de uma determinada categoria, onde o '#' é a ID dessa categoria.
+||
+||	 <?php echo lista('tudo'); ?>
+||
+|| --> Lista todos os posts existentes.
+||
+||
+
+
+----------------------------------------------------------------------
+                           AGRADECIMENTOS
+----------------------------------------------------------------------
+
+Obrigado a todos que fizeram download desse plugin, me informem por e-mail
+o que acharam do mesmo, e se ele tem algum problema e etc...
+Por gentileza, ao repassa-lo ou edita-lo, mantenham os créditos.
